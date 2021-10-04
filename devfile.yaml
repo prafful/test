@@ -1,0 +1,10 @@
+---
+apiVersion: 0.0.1
+name: minimal-workspace
+components:
+  -
+    type: cheEditor
+    id: eclipse/che-theia/next
+  -
+    type: chePlugin
+    id: clipse/che-machine-exec-plugin/0.0.1
